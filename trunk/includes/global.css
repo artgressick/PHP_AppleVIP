@@ -1,0 +1,95 @@
+/* CSS Document */
+
+body,td,th { font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif; font-size: 10px; color: #000000; }
+body { background: #e5e6e8; margin-top: 10px; }
+
+img { border: 0; vertical-align: top; }
+
+.instructions { padding: 3px; background: #FFFFE0; border: 1px solid #aaa; }
+.innerbody { padding: 5px; border: 1px solid #aaa; border-top: none; }
+
+.mainBody { width: 900px; margin: 0 auto; }
+.content { margin-top: 20px; }
+
+.navMenu { margin-top: 20px; width: 100%; white-space: nowrap; }
+.navSubMenu { margin-top: 10px; width: 100%; white-space: nowrap; }
+.menu {	background: url(../images/smoothbar.gif) repeat-x; height: 21px; padding: 0 10px; }
+.fill { background: url(../images/smoothbar.gif) repeat-x; height: 21px; width: 100%; text-align: right; }
+.fill a { text-decoration:none; color:#333333;}
+.menu a { color: #000000; text-decoration: none; }
+.menu:hover { background: url(../images/smoothbar_hoover.gif) repeat-x; white-space: nowrap; }
+.menu:hover a { color: #fff; text-decoration: none; }
+.menu_active { background: url(../images/smoothbar_hoover.gif) repeat-x; height: 21px; padding: 0 10px; }
+.menu_active a { color: #CCCCCC; text-decoration: none; }
+
+.leftcolumn { padding-right: 10px; }
+.rightcolumn { padding-left: 10px; }
+
+.title_fade { font-size: 13px; }
+.title_fade .title { padding-left: 5px; font-weight: bold; color: #FFFFFF; background: #5A5B5B; background: url(../images/title_fade.gif) repeat-x; height: 25px; }
+.title_fade .title_right { padding-right: 5px; font-weight: bold; color: #FFFFFF; background: #5A5B5B; background: url(../images/title_fade.gif) repeat-x; height: 25px; text-align: right; }
+.title_fade .left { background: url(../images/title_fade_round_left.gif); height: 9px; width: 9px; }
+.title_fade .right { background: url(../images/title_fade_round_right.gif); height: 9px; width: 9px; }
+
+.output { border: 1px solid #1A1B1B; border-top: none; }
+
+.copyright { width: 100%; font-size: 10px; color: #000000; background-color: #C2CED8; padding: 5px; line-height: 16px; margin-top: 10px; }
+
+.topBanner { margin-top: 20px; }
+
+/* These are for displaying the error and information messages on the screen. */
+div.ErrorMessage { background: #FFBFC5; color: #601319; border-left: 3px solid #601319; padding: 2px 4px; margin: 2px 0; }
+div.ErrorMessage A { color: black; }
+div.infoMessage { background-color: #B3EFB5; color: #144F16; border-left: 3px solid #144F16; padding: 2px 4px; margin:0 0 4px; }
+div.infoMessage A { color: black; }
+.errorMessages { background: #FFBFC5; color: #601319; border-left: 3px solid #601319; padding: 2px 4px; margin: 2px 0; }
+.errorMessages A { color: black; }
+.infoMessages { background-color: #B3EFB5; color: #144F16; border-left: 3px solid #144F16; padding: 2px 4px; margin:0 0 4px; }
+.infoMessages A { color: black; }
+
+/* Basic formatting for the text, select, textarea and checkbox type fields */
+input, select, button { vertical-align: baseline; border: 1px solid #999; }
+input, select, textarea { font-size: 11px; border: 1px solid #999; }
+input[type=checkbox] { vertical-align: middle; }
+
+/* This is the forms section all CSS that affect forms go in this area.*/
+.FormName { font-size: 10px; line-height: 14px; font-weight: bold; margin-left:2px; }
+.FormField { margin-bottom: 5px; }
+.FormDisplay { margin: 0 0 5px 5px; font-size: 12px; }
+.NoFormDisplay { margin: 0 0 5px 3px; font-size: 10px; color: gray; font-style: italic; }
+.FormRequired { font-size: 10px; line-height: 16px; color: #666; }
+.FormButtons { margin: 20px 3px 3px; }
+
+.login { border: 1px solid gray; padding: 5px; margin: 10px 0 10px 100px; width: 185px; }
+
+.List .headImg { width: 30px; }
+
+.warning { text-align: center; border: 1px solid #666; width: 400px; margin: auto; background: #fff; margin-top: 200px; display: block; }
+.warning .red { background: #6F0000; color: #fff; padding: 10px; font-size: 16px; }
+.warning .body { padding: 15px 10px; }
+
+.notice { text-align: center; border: 1px solid #666; width: 400px; margin: auto; background: #fff; margin-top: 200px; display: none; }
+.notice .green { background: #A4EFAC; color: #000; padding: 10px; font-size: 16px; }
+.notice .body { padding: 15px 10px; }
+
+
+.normal { display: block; }
+.overlaypage { display: none; text-align: center; z-index: 10; }
+/* .overlaypage .gray { position: absolute; top: 0; left: 0; height: 100%; width: 100%; opacity: .5; filter: alpha(opacity=50); background: #333; z-index: 20; } */
+.overlaypage .gray { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: url(../images/greyoverlay.png) repeat; }
+.overlaypage .message { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 30; }
+
+.twoCol { width: 100%; }
+.twoCol td { vertical-align: top; }
+.twoCol td.left { width: 440px; }
+.twoCol td.right { width: 440px; }
+.twoCol .gutter { padding: 0 20px; }
+
+.conflicts td { white-space: nowrap; }
+
+/* Tabs Section */
+.Tabs { font-size: 10px; padding:0px; margin:0px; }
+.Tabs td A, table.Tabs td a, table.Tabs div.NoLink {
+	display: block; color:black;  font-weight:bold; text-decoration:none; }
+.Tabs td.Current a, table.Tabs td.Current a:visited, table.Tabs td.Current div.NoLink { font-weight:bold; text-decoration:none; }
+.Tabs td select { color: black; font-size: 10px; }
